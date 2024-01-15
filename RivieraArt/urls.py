@@ -16,7 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.urls import path, include,re_path
+from frontapp import views
 
+# DEFINE ROUTE IN APPLICATION
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('frontapp.urls')),
+    ##re_path('.*', views.index)
 ]
