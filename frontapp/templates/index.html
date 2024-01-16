@@ -1,156 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
 
-<!-- icon list--><!DOCTYPE html>
-<html class="wide wow-animation" lang="en"> 
-  <head>
-    <!-- Site Title-->
-    <title>Home</title>
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <!-- Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400,700,400italic%7CPoppins:300,400,500,700">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-  </head>
-  <body>
-    <div class="ie-panel"> <a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <div class="preloader"> 
-      <div>
-        <div class="page-loader-body"> 
-          <div class="cssload-square">
-            <div class="cssload-square-part cssload-square-green"></div>
-            <div class="cssload-square-part cssload-square-pink"></div>
-            <div class="cssload-square-blend"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Page-->
-    <div class="text-center page"> 
-      <!-- Page-->
-      <!-- Page Header-->
-      <header class="page-header" style="padding-bottom: 24px">
-        <!-- RD Navbar-->
-        <div class="rd-navbar-wrap">
-          <nav class="rd-navbar rd-navbar-default-with-top-panel" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fullwidth" data-xl-layout="rd-navbar-fullwidth" data-xxl-layout="rd-navbar-fullwidth" data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-fullwidth" data-md-stick-up-offset="90px" data-lg-stick-up-offset="150px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true">
-            <div class="rd-navbar-top-panel rd-navbar-collapse">
-              <div class="rd-navbar-top-panel-inner">
-                <div class="left-side">
-                  <div class="group d-flex"><span class="font-italic">Follow Us:</span>
-                    <ul class="list-inline">
-                      <li class="list-inline-item"><a class="icon icon-sm icon-secondary-5 fa fa-instagram" href="#"></a></li>
-                      <li class="list-inline-item"><a class="icon icon-sm icon-secondary-5 fa fa-facebook" href="#"></a></li>
-                      <li class="list-inline-item"><a class="icon icon-sm icon-secondary-5 fa fa-twitter" href="#"></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="center-side">
-                  <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand fullwidth-brand"><a class="brand-name" href="index.html"><img src="images/logo-default-137x56.png" alt="" width="137" height="56"/></a></div>
-                </div>
-                <div class="right-side">
-                  <!-- Contact Info-->
-                  <div class="contact-info">
-                    <div class="unit align-items-center flex-row unit-spacing-xs">
-                      <div class="unit__left"><span class="icon icon-primary text-middle mdi mdi-phone"></span></div>
-                      <div class="unit__body"><a class="text-middle" href="tel:#">1-800-1234-567</a></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="rd-navbar-inner">
-              <!-- RD Navbar Panel-->
-              <div class="rd-navbar-panel">
-                <!-- RD Navbar Toggle-->
-                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                <!-- RD Navbar collapse toggle-->
-                <button class="rd-navbar-collapse-toggle" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></button>
-                <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand mobile-brand"><a class="brand-name" href="index.html"><img src="images/logo-default-137x56.png" alt="" width="137" height="56"/></a></div>
-              </div>
-              <div class="rd-navbar-aside-right">
-                <div class="rd-navbar-nav-wrap">
-                  <div class="rd-navbar-nav-scroll-holder">
-                    <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">About Us</a>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="#">Services</a>
-                        <ul class="rd-menu rd-navbar-dropdown">
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="services.html">Services</a>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="paintings.html">Paintings</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="#">Gallery</a>
-                        <ul class="rd-menu rd-navbar-dropdown">
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="grid-gallery.html">Grid Gallery</a>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="masonry-gallery.html">Masonry Gallery</a>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="full-grid-gallery.html">Full-Width Grid Gallery</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="#">Pages</a>
-                        <ul class="rd-menu rd-navbar-megamenu">
-                          <li class="rd-megamenu-item">
-                            <h6 class="rd-megamenu-title">Pages 1</h6>
-                            <ul class="rd-megamenu-list">
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="our-artists.html">Our Artists</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="team-mp.html">Team MP</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="testimonials.html">Testimonials</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="404-page.html">404 Page</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="503-page.html">503 Page</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="maintenance.html">Maintenance</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="faq.html">FAQ</a></li>
-                            </ul>
-                          </li>
-                          <li class="rd-megamenu-item">
-                            <h6 class="rd-megamenu-title">Pages 2</h6>
-                            <ul class="rd-megamenu-list">
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="privacy-policy.html">Privacy policy</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="site-map.html">Site map</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="search-results.html">Search Results</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="careers.html">Careers</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="blog.html">Blog</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="blog-post.html">Blog Post</a></li>
-                            </ul>
-                          </li>
-                          <li class="rd-megamenu-item">
-                            <h6 class="rd-megamenu-title">Elements</h6>
-                            <ul class="rd-megamenu-list">
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="buttons.html">Buttons</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="grid.html">Grid</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="forms.html">Forms</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="progress-bars.html">Progress bars</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="tabs-and-accordions.html">Tabs and accordions</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="tables.html">Tables</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="typography.html">Typography</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </header>
+
       <main>
         <section class="section section-layout section-xxs">
-          <div class="container-wide bg-image bg-image-full" style="background-image: url(images/bg-image-08.jpg);">
+          <div class="container-wide bg-image bg-image-full" style="background-image: url({% static 'images/bg-image-08.jpg' %});">
             <div class="row row-30 justify-content-sm-center row-custom">
               <div class="col-md-12 col-xl-7">
                 <div class="section-layout-main">
@@ -187,7 +42,7 @@
                     <div class="jp-type-playlist">
                       <!-- Hidden playlist for script-->
                       <ul class="jp-player-list">
-                        <li class="jp-player-list-item" data-jp-m4v="video/video.mp4" data-jp-title="local video" data-jp-poster="images/video-bg.jpg"></li>
+                        <li class="jp-player-list-item" data-jp-m4v="{% static 'video/video.mp4' %}" data-jp-title="local video" data-jp-poster="{% static 'images/video-bg.jpg' %}"></li>
                       </ul>
                       <!-- container in which our video will be played-->
                       <div class="jp-jplayer"></div>
@@ -275,33 +130,33 @@
               <!-- Isotope Content-->
               <div class="row isotope" data-isotope-layout="masonry" data-isotope-group="gallery" data-lightgallery="group">
                 <div class="col-12 col-md-6 col-lg-3 grid-sizer"></div>
-                <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInLeft" data-filter="Category 1" data-wow-delay=".1s"><a class="portfolio-item thumbnail-classic" href="images/grid-gallery-11-1200x800_original.jpg" data-lightgallery="item">
-                    <figure><img src="images/home-portfolio-01-420x584.jpg" alt="" width="420" height="584"/>
+                <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInLeft" data-filter="Category 1" data-wow-delay=".1s"><a class="portfolio-item thumbnail-classic" href="{% static 'images/grid-gallery-11-1200x800_original.jpg' %}" data-lightgallery="item">
+                    <figure><img src="{% static 'images/home-portfolio-01-420x584.jpg' %}" alt="" width="420" height="584"/>
                     </figure>
                     <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span class="icon mdi-eye">220</span></div></a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInDown" data-filter="Category 1" data-wow-delay=".2s"><a class="portfolio-item thumbnail-classic" href="images/grid-gallery-10-562x800_original.jpg" data-lightgallery="item">
-                    <figure><img src="images/home-portfolio-02-420x278.jpg" alt="" width="420" height="278"/>
+                <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInDown" data-filter="Category 1" data-wow-delay=".2s"><a class="portfolio-item thumbnail-classic" href="{% static 'images/grid-gallery-10-562x800_original.jpg' %}" data-lightgallery="item">
+                    <figure><img src="{% static 'images/home-portfolio-02-420x278.jpg' %}" alt="" width="420" height="278"/>
                     </figure>
                     <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span class="icon mdi-eye">220</span></div></a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInDown" data-filter="Category 1" data-wow-delay=".4s"><a class="portfolio-item thumbnail-classic" href="images/grid-gallery-9-1200x1200_original.jpg" data-lightgallery="item">
-                    <figure><img src="images/home-portfolio-03-420x584.jpg" alt="" width="420" height="584"/>
+                <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInDown" data-filter="Category 1" data-wow-delay=".4s"><a class="portfolio-item thumbnail-classic" href="{% static 'images/grid-gallery-9-1200x1200_original.jpg'%}" data-lightgallery="item">
+                    <figure><img src="{% static 'images/home-portfolio-03-420x584.jpg' %}" alt="" width="420" height="584"/>
                     </figure>
                     <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span class="icon mdi-eye">220</span></div></a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInRight" data-filter="Category 1" data-wow-delay=".5s"><a class="portfolio-item thumbnail-classic" href="images/grid-gallery-4-666x800_original.jpg" data-lightgallery="item">
-                    <figure><img src="images/home-portfolio-04-420x278.jpg" alt="" width="420" height="278"/>
+                <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInRight" data-filter="Category 1" data-wow-delay=".5s"><a class="portfolio-item thumbnail-classic" href="{% static 'images/grid-gallery-4-666x800_original.jpg' %}" data-lightgallery="item">
+                    <figure><img src="{% static 'images/home-portfolio-04-420x278.jpg' %}" alt="" width="420" height="278"/>
                     </figure>
                     <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span class="icon mdi-eye">220</span></div></a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInUp" data-filter="Category 1" data-wow-delay=".3s"><a class="portfolio-item thumbnail-classic" href="images/grid-gallery-12-526x800_original.jpg" data-lightgallery="item">
-                    <figure><img src="images/home-portfolio-05-420x278.jpg" alt="" width="420" height="278"/>
+                <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInUp" data-filter="Category 1" data-wow-delay=".3s"><a class="portfolio-item thumbnail-classic" href="{% static 'images/grid-gallery-12-526x800_original.jpg' %}" data-lightgallery="item">
+                    <figure><img src="{% static 'images/home-portfolio-05-420x278.jpg' %}" alt="" width="420" height="278"/>
                     </figure>
                     <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span class="icon mdi-eye">220</span></div></a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInRight" data-filter="Category 1" data-wow-delay=".6s"><a class="portfolio-item thumbnail-classic" href="images/grid-gallery-10-1200x800_original.jpg" data-lightgallery="item">
-                    <figure><img src="images/home-portfolio-06-420x278.jpg" alt="" width="420" height="278"/>
+                <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInRight" data-filter="Category 1" data-wow-delay=".6s"><a class="portfolio-item thumbnail-classic" href="{% static 'images/grid-gallery-10-1200x800_original.jpg' %}" data-lightgallery="item">
+                    <figure><img src="{% static 'images/home-portfolio-06-420x278.jpg' %}" alt="" width="420" height="278"/>
                     </figure>
                     <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span class="icon mdi-eye">220</span></div></a>
                 </div>
@@ -407,7 +262,7 @@
                   <div class="slick-slider carousel-parent" data-arrows="false" data-loop="true" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel" data-vertical="false" data-xs-vertical="false" data-sm-vertical="true" data-md-vertical="true" data-lg-vertical="true">
                     <div class="item">
                       <div class="quote-box quote-box-mod-1">
-                        <div class="quote-box-header"><img src="images/quote-img-01-49x45.png" alt="" width="49" height="45"/>
+                        <div class="quote-box-header"><img src="{% static 'images/quote-img-01-49x45.png' %}" alt="" width="49" height="45"/>
                           <h4 class="quote-box-title"><a class="link link-gray-darker" href="#">Great atmosphere and lots of impressive paintings</a></h4>
                         </div>
                         <div class="quote-box-body">
@@ -422,7 +277,7 @@
                     </div>
                     <div class="item">
                       <div class="quote-box quote-box-mod-1">
-                        <div class="quote-box-header"><img src="images/quote-img-01-49x45.png" alt="" width="49" height="45"/>
+                        <div class="quote-box-header"><img src="{% static 'images/quote-img-01-49x45.png' %}" alt="" width="49" height="45"/>
                           <h4 class="quote-box-title"><a class="link link-gray-darker" href="#">The best art gallery in the whole state!</a></h4>
                         </div>
                         <div class="quote-box-body">
@@ -437,7 +292,7 @@
                     </div>
                     <div class="item">
                       <div class="quote-box quote-box-mod-1">
-                        <div class="quote-box-header"><img src="images/quote-img-01-49x45.png" alt="" width="49" height="45"/>
+                        <div class="quote-box-header"><img src="{% static 'images/quote-img-01-49x45.png' %}" alt="" width="49" height="45"/>
                           <h4 class="quote-box-title"><a class="link link-gray-darker" href="#">You have a great team of artists</a></h4>
                         </div>
                         <div class="quote-box-body">
@@ -452,7 +307,7 @@
                     </div>
                     <div class="item">
                       <div class="quote-box quote-box-mod-1">
-                        <div class="quote-box-header"><img src="images/quote-img-01-49x45.png" alt="" width="49" height="45"/>
+                        <div class="quote-box-header"><img src="{% static 'images/quote-img-01-49x45.png' %}" alt="" width="49" height="45"/>
                           <h4 class="quote-box-title"><a class="link link-gray-darker" href="#">All kinds of art styles and paintings</a></h4>
                         </div>
                         <div class="quote-box-body">
@@ -468,19 +323,19 @@
                   </div>
                   <div class="slick-slider" id="child-carousel" data-for=".carousel-parent" data-arrows="false" data-loop="true" data-dots="false" data-swipe="true" data-center-mode="false" data-sm-center-mode="true" data-md-center-mode="true" data-lg-center-mode="true" data-center-padding="0.50" data-items="1" data-md-items="3" data-lg-items="3" data-xl-items="3" data-slide-to-scroll="1" data-vertical="false" data-xs-vertical="false" data-sm-vertical="true" data-md-vertical="true" data-lg-vertical="true">
                     <div class="item">
-                      <figure><img class="rounded-circle" src="images/about-04-111x111.jpg" alt="" width="111" height="111"/>
+                      <figure><img class="rounded-circle" src="{% static 'images/about-04-111x111.jpg' %}" alt="" width="111" height="111"/>
                       </figure>
                     </div>
                     <div class="item">
-                      <figure><img class="rounded-circle" src="images/about-02-111x111.jpg" alt="" width="111" height="111"/>
+                      <figure><img class="rounded-circle" src="{% static 'images/about-02-111x111.jpg' %}" alt="" width="111" height="111"/>
                       </figure>
                     </div>
                     <div class="item">
-                      <figure><img class="rounded-circle" src="images/about-03-111x111.jpg" alt="" width="111" height="111"/>
+                      <figure><img class="rounded-circle" src="{% static 'images/about-03-111x111.jpg' %}" alt="" width="111" height="111"/>
                       </figure>
                     </div>
                     <div class="item">
-                      <figure><img class="rounded-circle" src="images/about-05-111x111.jpg" alt="" width="111" height="111"/>
+                      <figure><img class="rounded-circle" src="{% static 'images/about-05-111x111.jpg' %}" alt="" width="111" height="111"/>
                       </figure>
                     </div>
                   </div>
@@ -497,7 +352,7 @@
             <!-- Owl Carousel-->
             <div class="owl-carousel owl-carousel-stagePadding" data-items="1" data-md-items="2" data-xxl-items="3" data-dots="false" data-nav="true" data-stage-padding="0" data-xl-stage-padding="100" data-xxl-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="false">
               <div class="post-box post-box-minimal post-box-horizontal wow fadeInDown" data-wow-delay=".1s"><a class="post-box-image" href="blog-post.html">
-                  <figure><img src="images/home-blog-01-460x369.jpg" alt="" width="460" height="369"/>
+                  <figure><img src="{% static 'images/home-blog-01-460x369.jpg' %}" alt="" width="460" height="369"/>
                   </figure></a>
                 <div class="post-box-minimal-caption">
                   <div class="post-box-minimal-caption-inner">
@@ -510,7 +365,7 @@
                 </div>
               </div>
               <div class="post-box post-box-minimal post-box-horizontal wow fadeInUp" data-wow-delay=".25s"><a class="post-box-image" href="blog-post.html">
-                  <figure><img src="images/home-blog-02-460x369.jpg" alt="" width="460" height="369"/>
+                  <figure><img src="{% static 'images/home-blog-02-460x369.jpg' %}" alt="" width="460" height="369"/>
                   </figure></a>
                 <div class="post-box-minimal-caption">
                   <div class="post-box-minimal-caption-inner">
@@ -523,7 +378,7 @@
                 </div>
               </div>
               <div class="post-box post-box-minimal post-box-horizontal wow fadeInDown" data-wow-delay=".3s"><a class="post-box-image" href="blog-post.html">
-                  <figure><img src="images/home-blog-03-460x369.jpg" alt="" width="460" height="369"/>
+                  <figure><img src="{% static 'images/home-blog-03-460x369.jpg' %}" alt="" width="460" height="369"/>
                   </figure></a>
                 <div class="post-box-minimal-caption">
                   <div class="post-box-minimal-caption-inner">
@@ -538,95 +393,6 @@
             </div>
           </div>
         </section>
-        <!-- Page Footer-->
-        <footer class="page-footer-corporate object-wrap object-wrap-md-left object-wrap-map bg-gray-dark text-left">
-          <div class="object-wrap-body object-wrap-map sizing-1">
-            <!-- RD Google Map-->
-            <div class="google-map-container" data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-zoom="5" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png" data-styles="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:60}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:40},{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;administrative.province&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;lightness&quot;:30}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ef8c25&quot;},{&quot;lightness&quot;:40}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#b6c54c&quot;},{&quot;lightness&quot;:40},{&quot;saturation&quot;:-40}]},{}]">
-              <div class="google-map"></div>
-              <ul class="google-map-markers">
-                <li data-location="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-description="9870 St Vincent Place, Glasgow"></li>
-              </ul>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row justify-content-md-end">
-              <div class="col-lg-6">
-                <div class="page-footer-corporate-inner">
-                  <div class="page-footer-corporate-top row row-60">
-                    <div class="col-md-6 col-lg-12">
-                      <h5>contact us</h5>
-                      <hr class="divider divider-sm divider-left">
-                      <ul class="list-unstyled">
-                        <li>
-                          <dl class="list-desc">
-                            <dt class="text-middle"><span class="icon icon-sm mdi mdi-map-marker"> </span></dt>
-                            <dd class="text-middle"><a class="link link-md" href="#">6036 Richmond hwy., Alexandria, VA, 2230  </a></dd>
-                          </dl>
-                        </li>
-                        <li>
-                          <div class="group-sm">
-                            <dl class="list-desc">
-                              <dt class="text-middle"><span class="icon icon-sm mdi mdi-phone"> </span></dt>
-                              <dd class="text-middle"><a class="link link-md" href="tel:#">+1 (409) 987–5874</a></dd>
-                            </dl>
-                            <dl class="list-desc">
-                              <dt class="text-middle"><span class="icon icon-sm mdi mdi-email-outline"> </span></dt>
-                              <dd class="text-middle"><a class="link" href="mailto:#">info@demolink.org </a></dd>
-                            </dl>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-6 col-lg-12">
-                      <h5>Opening hours</h5>
-                      <hr class="divider divider-sm divider-left">
-                      <div class="group">
-                        <dl class="list-desc">
-                          <dt>Weekdays: </dt>
-                          <dd><span>8:00–20:00</span></dd>
-                        </dl>
-                        <dl class="list-desc">
-                          <dt>Weekends: </dt>
-                          <dd><span>9:00–18:00</span></dd>
-                        </dl>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-12">
-                      <h5>Navigation</h5>
-                      <hr class="divider divider-sm divider-left">
-                      <ul class="nav-list list-column-3">
-                        <li class="active"><a class="link" href="./">Home</a></li>
-                        <li><a class="link" href="about-us.html">About Us</a></li>
-                        <li><a class="link" href="grid-gallery.html">Gallery</a></li>
-                        <li><a class="link" href="services.html">Services</a></li>
-                        <li><a class="link" href="contacts.html">Contacts</a></li>
-                        <li><a class="link" href="#">Pages</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="page-footer-corporate-bottom">
-                    <div class="group d-flex"><span>Follow Us:</span>
-                      <ul class="list-inline">
-                        <li class="list-inline-item"><a class="icon icon-sm icon-gray-3 fa fa-instagram" href="#"></a></li>
-                        <li class="list-inline-item"><a class="icon icon-sm icon-gray-3 fa fa-facebook" href="#"></a></li>
-                        <li class="list-inline-item"><a class="icon icon-sm icon-gray-3 fa fa-twitter" href="#"></a></li>
-                      </ul>
-                    </div>
-                    <p class="rights">ArtGallery&nbsp;&copy;&nbsp;<span class="copyright-year"></span>.&nbsp;<br class="d-md-none"><a class="link-underline" href="privacy-policy.html">Privacy Policy</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
-      </main>
-    </div>
-    <!-- Global Mailform Output-->
-    <div class="snackbars" id="form-output-global"> </div>
-    <!-- Javascript-->
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"> </script>
-  </body>
-</html>
+           </main>
+
+{% endblock content %}
