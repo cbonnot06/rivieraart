@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% load static %}
+
+
+      <main>
+        <section class="section section-lg section-xl bg-accent text-center bg-image" style="background-image: url({% static 'images/bg-image-2.jpg' %});">
+          <div class="container">
+            <div class="row justify-content-lg-center">
+              <div class="col-lg-6">
+                <h3>Page not found</h3>
+                <hr class="divider divider-secondary divider-xs">
+                <div class="extra-large">404</div>
+                <p class="big">You may have mistyped the address or the page may have moved</p>
+                <div class="group-sm group-middle group-center"><a class="button button-effect-ujarak button-square button-primary button-icon button-icon-left" href="/index.html"><span class="icon mdi mdi-arrow-left"></span><span>back to home</span></a><a class="button button-effect-ujarak button-square button-icon button-icon-left button-gray-dark-outline" href="/contacts.html"><span class="icon mdi mdi-email-outline"></span><span>contact us</span></a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+{% endblock content %}
