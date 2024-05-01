@@ -21,7 +21,7 @@ from . import views
 
 urlpatterns = [
     path('', views.index),
-    path('gridgallery/', views.gridgallery),
+    path('gridgallery', views.gridgallery),
     #handler404 = views.err404
     re_path('.*', views.err404)
 ]

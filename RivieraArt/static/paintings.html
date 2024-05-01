@@ -1,25 +1,23 @@
-{% load static %}
-
 
 <!-- icon list--><!DOCTYPE html>
 <html class="wide wow-animation" lang="en"> 
   <head>
     <!-- Site Title-->
-    <title>Home</title>
+    <title>Paintings</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-     <!--<link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon"> -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400,700,400italic%7CPoppins:300,400,500,700">
-    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-    <link rel="stylesheet" href="{% static 'css/fonts.css' %}">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
-    <div class="ie-panel"> <a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="{% static 'images/ie8-panel/warning_bar_0000_us.jpg'%}"  height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="ie-panel"> <a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <div class="preloader"> 
       <div>
         <div class="page-loader-body"> 
@@ -52,7 +50,7 @@
                 </div>
                 <div class="center-side">
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand fullwidth-brand"><a class="brand-name" href="index.html"><img src="{% static 'images/logo-default-137x56.png' %}" alt="" width="137" height="56"/></a></div>
+                  <div class="rd-navbar-brand fullwidth-brand"><a class="brand-name" href="index.html"><img src="images/logo-default-137x56.png" alt="" width="137" height="56"/></a></div>
                 </div>
                 <div class="right-side">
                   <!-- Contact Info-->
@@ -73,17 +71,17 @@
                 <!-- RD Navbar collapse toggle-->
                 <button class="rd-navbar-collapse-toggle" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand mobile-brand"><a class="brand-name" href="index.html"><img src="{% static 'images/logo-default-137x56.png' %}" alt="" width="137" height="56"/></a></div>
+                <div class="rd-navbar-brand mobile-brand"><a class="brand-name" href="index.html"><img src="images/logo-default-137x56.png" alt="" width="137" height="56"/></a></div>
               </div>
               <div class="rd-navbar-aside-right">
                 <div class="rd-navbar-nav-wrap">
                   <div class="rd-navbar-nav-scroll-holder">
                     <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Home</a>
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">About Us</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="#">Services</a>
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="#">Services</a>
                         <ul class="rd-menu rd-navbar-dropdown">
                           <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="services.html">Services</a>
                           </li>
@@ -93,7 +91,7 @@
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="#">Gallery</a>
                         <ul class="rd-menu rd-navbar-dropdown">
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="/gridgallery">Grid Gallery</a>
+                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="grid-gallery.html">Grid Gallery</a>
                           </li>
                           <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="masonry-gallery.html">Masonry Gallery</a>
                           </li>
@@ -103,59 +101,41 @@
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="/">Pages</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#">Pages</a>
                         <ul class="rd-menu rd-navbar-megamenu">
-
-                           <li class="rd-megamenu-item">
-                            <h6 class="rd-megamenu-title">Services</h6>
-                            <ul class="rd-megamenu-list">
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="static/services.html">Services</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="static/paintings.html">Paintings</a></li>
-                            </ul>
-                          </li>
-
-                          <li class="rd-megamenu-item">
-                            <h6 class="rd-megamenu-title">Gallery</h6>
-                            <ul class="rd-megamenu-list">
-                             <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="gridgallery">Grid Gallery</a></li>
-                             <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="static/masonry-gallery.html">Masonry Gallery</a></li>
-                             <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="static/full-grid-gallery.html">Full-Width Grid Gallery</a></li>
-                            </ul>
-                          </li>
-
                           <li class="rd-megamenu-item">
                             <h6 class="rd-megamenu-title">Pages 1</h6>
                             <ul class="rd-megamenu-list">
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/our-artists.html">Our Artists</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/team-mp.html">Team MP</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/testimonials.html">Testimonials</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="../../frontapp/templates/404-page.html">404 Page</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/503-page.html">503 Page</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/maintenance.html">Maintenance</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/faq.html">FAQ</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="our-artists.html">Our Artists</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="team-mp.html">Team MP</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="testimonials.html">Testimonials</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="404-page.html">404 Page</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="503-page.html">503 Page</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="maintenance.html">Maintenance</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="faq.html">FAQ</a></li>
                             </ul>
                           </li>
                           <li class="rd-megamenu-item">
                             <h6 class="rd-megamenu-title">Pages 2</h6>
                             <ul class="rd-megamenu-list">
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/privacy-policy.html">Privacy policy</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/site-map.html">Site map</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/search-results.html">Search Results</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/careers.html">Careers</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/blog.html">Blog</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/blog-post.html">Blog Post</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="privacy-policy.html">Privacy policy</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="site-map.html">Site map</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="search-results.html">Search Results</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="careers.html">Careers</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="blog.html">Blog</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="blog-post.html">Blog Post</a></li>
                             </ul>
                           </li>
                           <li class="rd-megamenu-item">
                             <h6 class="rd-megamenu-title">Elements</h6>
                             <ul class="rd-megamenu-list">
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/buttons.html">Buttons</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/grid.html">Grid</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/forms.html">Forms</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/progress-bars.html">Progress bars</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/tabs-and-accordions.html">Tabs and accordions</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/tables.html">Tables</a></li>
-                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="static/typography.html">Typography</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="buttons.html">Buttons</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="grid.html">Grid</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="forms.html">Forms</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="progress-bars.html">Progress bars</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="tabs-and-accordions.html">Tabs and accordions</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="tables.html">Tables</a></li>
+                              <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="typography.html">Typography</a></li>
                             </ul>
                           </li>
                         </ul>
@@ -168,16 +148,85 @@
           </nav>
         </div>
       </header>
+      <main>   
+        <!-- Breadcrumbs & Page title-->
+        <section class="section-lg text-center bg-image breadcrumbs-01">
+          <div class="container container-fluid">
+            <div class="row justify-content-sm-center">
+              <div class="col-sm-12 col-xxl-11">
+                <h2 class="text-white">Paintings</h2>
+                <ul class="breadcrumbs-custom">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li class="active">Paintings</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
 
-            {% block content %}
-      {% endblock content %}
-
-
+        <section class="section section-lg bg-default text-center">
+          <div class="container">
+            <div class="row justify-content-sm-center row-50">
+              <div class="col-md-7">
+                <div class="services-single-box">
+                  <div class="services-single-header">
+                    <div class="services-single-title">Canvas/Acrylic</div>
+                    <div class="services-single-price">$95</div>
+                  </div>
+                  <p class="services-single-body">Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+                </div>
+                <div class="services-single-box">
+                  <div class="services-single-header">
+                    <div class="services-single-title">Canvas/Oil</div>
+                    <div class="services-single-price">$55</div>
+                  </div>
+                  <p class="services-single-body">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+                </div>
+                <div class="services-single-box">
+                  <div class="services-single-header">
+                    <div class="services-single-title">Canvas/Mixed Technique</div>
+                    <div class="services-single-price">$15</div>
+                  </div>
+                  <p class="services-single-body">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada.</p>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <!-- RD Mailform-->
+                <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="forms" method="post" action="bat/rd-mailform.php">
+                  <div class="form-wrap form-wrap-validation form-wrap_icon mdi mdi-account">
+                    <label class="form-label" for="forms-name">Your Name</label>
+                    <input class="form-input" id="forms-name" type="text" name="name" data-constraints="@Required">
+                  </div>
+                  <div class="form-wrap form-wrap-validation form-wrap_icon mdi mdi-phone">
+                    <label class="form-label" for="forms-phone">Phone</label>
+                    <input class="form-input" id="forms-phone" type="text" name="phone" data-constraints="@Numeric @Required">
+                  </div>
+                  <div class="form-wrap form-wrap-validation form-wrap_icon mdi mdi-format-list-bulleted">
+                    <!--Select 2-->
+                    <select class="form-input select-filter" data-placeholder="Acrylic Painting" data-constraints="@Required" data-minimum-results-search="-1">
+                      <option value="1">Acrylic Painting</option>
+                      <option value="2">Oil Painting</option>
+                      <option value="3">Mixed Technique Painting</option>
+                    </select>
+                  </div>
+                  <div class="form-wrap form-wrap-validation form-wrap_icon mdi mdi-calendar-text">
+                    <label class="form-label" for="event-date">Select Day</label>
+                    <input class="form-input" id="event-date" type="text" name="calendar" data-time-picker="date">
+                  </div>
+                  <div class="form-button">
+                    <button class="button button-secondary button-square button-effect-ujarak" type="submit"><span>book an appointment</span></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
         <!-- Page Footer-->
         <footer class="page-footer-corporate object-wrap object-wrap-md-left object-wrap-map bg-gray-dark text-left">
           <div class="object-wrap-body object-wrap-map sizing-1">
             <!-- RD Google Map-->
-            <div class="google-map-container" data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-zoom="5" data-icon="{% static 'images/gmap_marker.png' %}" data-icon-active="{% static 'images/gmap_marker_active.png' %}" data-styles="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:60}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:40},{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;administrative.province&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;lightness&quot;:30}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ef8c25&quot;},{&quot;lightness&quot;:40}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#b6c54c&quot;},{&quot;lightness&quot;:40},{&quot;saturation&quot;:-40}]},{}]">
+            <div class="google-map-container" data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-zoom="5" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png" data-styles="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:60}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:40},{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;administrative.province&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;lightness&quot;:30}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ef8c25&quot;},{&quot;lightness&quot;:40}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#b6c54c&quot;},{&quot;lightness&quot;:40},{&quot;saturation&quot;:-40}]},{}]">
               <div class="google-map"></div>
               <ul class="google-map-markers">
                 <li data-location="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-description="9870 St Vincent Place, Glasgow"></li>
@@ -231,10 +280,10 @@
                       <h5>Navigation</h5>
                       <hr class="divider divider-sm divider-left">
                       <ul class="nav-list list-column-3">
-                        <li class="active"><a class="link" href="./">Home</a></li>
+                        <li><a class="link" href="./">Home</a></li>
                         <li><a class="link" href="about-us.html">About Us</a></li>
                         <li><a class="link" href="grid-gallery.html">Gallery</a></li>
-                        <li><a class="link" href="services.html">Services</a></li>
+                        <li class="active"><a class="link" href="services.html">Services</a></li>
                         <li><a class="link" href="contacts.html">Contacts</a></li>
                         <li><a class="link" href="#">Pages</a></li>
                       </ul>
@@ -256,12 +305,12 @@
             </div>
           </div>
         </footer>
-
+      </main>
     </div>
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"> </div>
     <!-- Javascript-->
-    <script src="{% static 'js/core.min.js' %}"></script>
-    <script src="{% static 'js/script.js' %}"> </script>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"> </script>
   </body>
 </html>
